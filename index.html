@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/index.css" />
+    <title>Document</title>
+  </head>
+  <body id="top">
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light content_header">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#top">
+            <img src="./img/logo_2.png" alt="Logo" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#products"
+                  >Products</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="intro_header">
+        <img src="./img/cv-sale-1812.jpg" alt="" />
+      </div>
+    </header>
+    <section>
+      <div class="container" id="products">
+        <h1>This is your space</h1>
+        <h3>Talk about your business, your products, or yourself.</h3>
+        <p class=".d-none .d-sm-block .d-md-none">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+          <br />
+          varius enim in eros elementum tristique. Duis cursus, mi quis viverra
+          <br />
+          ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.
+          <br />
+          Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc
+          <br />
+          ut sem vitae risus tristique posuere.
+        </p>
+        <p class=".d-none .d-sm-block .d-md-none">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+          <br />
+          varius enim in eros elementum tristique. Duis cursus, mi quis viverra
+          <br />
+          ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.
+          <br />
+          Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc
+          <br />
+          ut sem vitae risus tristique posuere.
+        </p>
+      </div>
+      <div class="container_product" id="about">
+        <h1>Featured Products</h1>
+        <h3>Check out new and popular products</h3>
+        <div class="container my-5">
+          <div class="row justify-content-center gy-4">
+            <div
+              class="col-lg-auto col-md-6 col-sm-12 d-flex justify-content-center"
+            >
+              <div class="rectangle">
+                <img
+                  src="https://elise.vn/media/catalog/product/cache/bb52e54e5ec1828d48ae8bf7c98f9f69/f/f/ff2408057bklesi.jpg"
+                  alt="Rectangle 1"
+                />
+                <div class="price-box">$49.99</div>
+              </div>
+            </div>
+
+            <div
+              class="col-lg-auto col-md-6 col-sm-12 d-flex justify-content-center"
+            >
+              <div class="rectangle">
+                <img
+                  src="https://elise.vn/media/catalog/product/cache/bb52e54e5ec1828d48ae8bf7c98f9f69/f/f/ff2405174bkwopk1.jpg"
+                  alt="Rectangle 2"
+                />
+                <div class="price-box">$59.99</div>
+              </div>
+            </div>
+            <div
+              class="col-lg-auto col-md-6 col-sm-12 d-flex justify-content-center"
+            >
+              <div class="rectangle">
+                <img
+                  src="https://elise.vn/media/catalog/product/cache/bb52e54e5ec1828d48ae8bf7c98f9f69/f/f/ff2410002bkdebr.jpg"
+                  alt="Rectangle 3"
+                />
+                <div class="price-box">$59.99</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="contacts" id="contact">
+        <h1>Monthly Newsletter</h1>
+        <p>
+          Sign up to receive updates from our shop, including new tea selections
+          and upcoming events.
+        </p>
+        <form class="d-flex" id="newsletterForm">
+          <input
+            class="form-control custom-search"
+            type="email"
+            id="emailInput"
+            placeholder="Enter your email"
+            aria-label="Email"
+            required
+          />
+          <button class="btn btn-dark" type="submit">SUBMIT</button>
+        </form>
+      </div>
+      <div id="successMessage" class="toast">
+        <strong>Thank you for subscribing! You will receive updates soon.</strong>
+      </div>
+    </div>
+</div>
+    </section>
+    <footer class="bg-body-tertiary text-center text-lg-start">
+      <div class="container p-4">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Menu</h5>
+            <ul class="list-unstyled mb-0">
+              <li><a href="#top" class="text-body">Home</a></li>
+              <li><a href="#products" class="text-body">Products</a></li>
+              <li><a href="#contact!" class="text-body">Contact</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase mb-0">Help</h5>
+            <ul class="list-unstyled">
+              <li><a href="#!" class="text-body">Shipping</a></li>
+              <li><a href="#!" class="text-body">Returns & Exchange</a></li>
+              <li><a href="#!" class="text-body">Product Care</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Links</h5>
+            <ul class="list-unstyled mb-0">
+              <li><a href="#!" class="text-body">Link 1</a></li>
+              <li><a href="#!" class="text-body">Link 2</a></li>
+              <li><a href="#!" class="text-body">Link 3</a></li>
+              <li><a href="#!" class="text-body">Link 4</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase mb-0">Follow</h5>
+            <ul class="list-unstyled">
+              <li><a href="#!" class="text-body">Instagram</a></li>
+              <li><a href="#!" class="text-body">Facebook</a></li>
+              <li><a href="#!" class="text-body">Twitter</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <button id="backToTop" class="btnbackToTop">↑</button>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
